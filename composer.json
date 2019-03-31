@@ -1,9 +1,11 @@
 {
     "name": "zalatov/runtime-cache-trait",
+    "version": "1.0",
     "description": "Trait for PHP runtime caching.",
     "type": "php-trait",
     "license": "MIT",
     "homepage": "https://github.com/zalatov/runtime-cache-trait",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Zalatov Alexander",
@@ -12,8 +14,21 @@
     ],
     "repositories": [
         {
-            "type": "vcs",
-            "url": "https://github.com/zalatov/runtime-cache-trait"
+            "type": "git",
+            "url": "https://github.com/zalatov/runtime-cache-trait.git",
+            "reference": "master"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "zalatov/runtime-cache-trait",
+                "version": "1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/zalatov/runtime-cache-trait.git",
+                    "reference": "master"
+                }
+            }
         }
     ],
     "require": {
